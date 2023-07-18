@@ -5,6 +5,9 @@
   Given a string s consisting of words and spaces, return the length of the last word in the string.
   A word is a maximal substring consisting of non-space characters only.
 
+    Level:
+  Easy
+
     Result:
   Successfully finished with runtime 0 ms
   Time Complexity:
