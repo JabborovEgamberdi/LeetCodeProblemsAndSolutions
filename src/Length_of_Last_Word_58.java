@@ -10,7 +10,8 @@
 
     Result:
   Successfully finished with runtime 0 ms
-  Time Complexity:
+
+    Time Complexity:
        first way: O (n + m);
                      n - length of input string;
                      m - length of trimmed string;
