@@ -5,8 +5,7 @@
   An ugly number is a positive integer whose prime factors are limited to 2, 3, and 5.
   Given an integer n, return true if n is an ugly number.
 
-    Level:
-  Easy
+    Level: 🟢🟢🟢
 
     Result:
   Successfully finished with runtime 1 ms, beats 100
@@ -18,7 +17,7 @@
 
 public class Ugly_Number_263 {
     public static void main(String[] args) {
-        System.out.println("isUgly(5) = " + isUgly(5));
+        System.out.println(STR."isUgly(5) = \{isUgly(5)}");
     }
 
     public static boolean isUgly(int n) {

@@ -5,8 +5,7 @@
   Given a string s consisting of words and spaces, return the length of the last word in the string.
   A word is a maximal substring consisting of non-space characters only.
 
-    Level:
-  Easy
+    Level: 🟢🟢🟢
 
     Result:
   Successfully finished with runtime 0 ms
@@ -23,9 +22,9 @@ public class Length_of_Last_Word_58 {
 
     public static void main(String[] args) {
         String word = "   fly me   to   the moon  ";
-        System.out.println("lengthOfLastWord(word) = " + lengthOfLastWordFirstWay(word));
+        System.out.println(STR."lengthOfLastWord(word) = \{lengthOfLastWordFirstWay(word)}");
         String word1 = "  Hello World";
-        System.out.println("lengthOfLastWordSecondWay(word1) = " + lengthOfLastWordSecondWay(word1));
+        System.out.println(STR."lengthOfLastWordSecondWay(word1) = \{lengthOfLastWordSecondWay(word1)}");
     }
 
     public static int lengthOfLastWordFirstWay(String string) {

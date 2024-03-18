@@ -15,12 +15,11 @@
                      n - length of input integer;
 
 */
-
 public class Palindrome_Number_9 {
     public static void main(String[] args) {
-        System.out.println("isPalindrome(357) = " + isPalindrome(357));
-        System.out.println("isPalindrome(454) = " + isPalindrome(454));
-        System.out.println("isPalindrome2(545) = " + isPalindrome2(456654));
+        System.out.println(STR."isPalindrome(357) = \{isPalindrome(357)}");
+        System.out.println(STR."isPalindrome(454) = \{isPalindrome(454)}");
+        System.out.println(STR."isPalindrome2(545) = \{isPalindrome2(456654)}");
     }
 
     public static boolean isPalindrome(int x) {
