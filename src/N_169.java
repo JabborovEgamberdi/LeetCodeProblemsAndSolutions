@@ -1,27 +1,31 @@
-package NotFinished;
+/*
+* Level: 🟢🟢🟢
+* Status: DONE
+* Time Complexity: O(n)
+* Runtime: 1 ms -> Beats 99.66% of users with Java
+* */
 
 public class N_169 {
     public static void main(String[] args) {
-        int[] nums = {2, 2, 1, 1, 1, 2, 2};
+        int[] nums = {2, 2, 1, 1, 1, 2, 3};
         System.out.println(majorityElement(nums));
         int[] nums1 = {8, 8, 7, 7, 7};
-        System.out.println(majorityElement1(nums1));
+        System.out.println(majorityElement(nums1));
     }
 
+    // 1 ms -->> 99.66%
     public static int majorityElement(int[] nums) {
-        int count = 1;
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = 0; j < nums.length; j++) {
-                if (nums[i] == nums[j])
-                    if (i != j) count++;
-            }
-            if (count / 2 > 0) return nums[i];
-            else count = 1;
+        int count = 0;
+        int candidate = 0;
+        for (int num : nums) {
+            if (count == 0) candidate = num;
+            if (num == candidate) count++;
+            else count--;
         }
-        return count;
+        return candidate;
     }
 
-    // done
+    // done -->> 2222 ms
     public static int majorityElement1(int[] nums) {
         int maxElement = 0;
         int maxCount = 0;
