@@ -1,5 +1,9 @@
-package NotFinished;
-
+/*
+* Level: 🟢🟢🟢
+* Status: DONE
+* Time Complexity: O(n)
+* Runtime: 0 ms --> 100%
+* */
 public class N_643 {
     public static void main(String[] args) {
         int[] nums = {1, 12, -5, -6, 50, 3};
@@ -8,7 +12,7 @@ public class N_643 {
 
         int[] nums2 = {3, 5};
         int k2 = 2;
-        System.out.println(findMaxAverage(nums2, k2));
+        System.out.println(findMaxAverage3(nums2, k2));
     }
 
     public static double findMaxAverage2(int[] nums, int k) {
@@ -46,6 +50,7 @@ public class N_643 {
         return (double) max / k;
     }
 
+    // 0 ms --> 100%
     private static double findMaxAverage3(int[] nums, int k) {
         double sum = 0;
         for (int i = 0; i < k; i++) {
