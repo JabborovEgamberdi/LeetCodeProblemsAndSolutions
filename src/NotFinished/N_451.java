@@ -1,4 +1,5 @@
-
+import java.util.HashMap;
+import java.util.Map;
 
 void main() {
     String s = "tree";
@@ -6,11 +7,9 @@ void main() {
 }
 
 public static String frequencySort(String s) {
-    int[] count = new int[128];
+    Map<Character, Integer> elements = new HashMap<>();
     for (char c : s.toCharArray()) {
-        count[c]++;
+        elements.put(c, elements.getOrDefault(c, 0) + 1);
     }
-    StringBuilder sb = new StringBuilder();
-
     return null;
 }

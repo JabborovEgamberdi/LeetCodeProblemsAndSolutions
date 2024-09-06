@@ -21,8 +21,6 @@ public class N_215 {
             nums[index] = 0;
             return findKthLargest(nums, k);
         }
-
-
         return max;
     }
 

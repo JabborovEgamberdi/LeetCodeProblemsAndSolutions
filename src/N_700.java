@@ -1,7 +1,7 @@
 /*
  Level: 🟢🟢🟢
  Status: DONE
- Runtime: 0 ms
+ Runtime: 0 ms --> 100%
  */
 
 void main() {
